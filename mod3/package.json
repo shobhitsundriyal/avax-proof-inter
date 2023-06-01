@@ -1,0 +1,15 @@
+{
+  "name": "erc20",
+  "version": "1.0.0",
+  "description": "Avax proof module 3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shobhit Sundriyal",
+  "license": "MIT",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.9.0",
+    "hardhat": "^2.14.1"
+  }
+}
