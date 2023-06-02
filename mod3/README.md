@@ -1,13 +1,8 @@
-# Sample Hardhat Project
+# Hardhat Project
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+In this project I have created a erc20 token which can be found in `/contracts` folder
 
-Try running some of the following tasks:
-
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.ts
-```
+### steps to run
+- Run `npm i`, which will install all the dependencies
+- there are multiple test in test folder in TokenContract.ts, you can modify and write the testcases there.
+- you can also spin up a local hardhat node and write new script or simply import contract to remix, connect with local node and test it out.
