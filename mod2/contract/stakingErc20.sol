@@ -6,7 +6,7 @@ import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 
 contract MyToken is ERC20, Ownable {
-    constructor() ERC20("CommunityGaming", "CGT") {}
+    constructor() ERC20("CRED", "CRED") {}
 
     function mint(address to, uint256 amount) external onlyOwner {
         _mint(to, amount);
@@ -23,7 +23,7 @@ contract Staking {
     uint minStakingTime;
     constructor(address _tokenAddress){
         OurToken =  MyToken(_tokenAddress);
-        minStakingTime = 120; //120s == 2 min
+        minStakingTime = 10; //10s
     }
 
     function claimIntialToken() public {

@@ -12,6 +12,7 @@ import {
   stakingContractAddr,
   stakingContractABI,
 } from '../contractDetails'
+// use avax testnet if you want to use this project directly
 const Home: NextPage = () => {
   const [currentAccount, setCurrentAccount] = useState('')
   const [isWallectConnected, setIsWallectConnected] = useState(false)
@@ -292,7 +293,7 @@ const Home: NextPage = () => {
 
         {/** admin view  */}
         {currentAccount.toLowerCase() ==
-          '0x489DcE5bE878F73A8F21FCB50594414A1B77EebC'.toLowerCase() && (
+          '0x6BeF65D67c45505bA9BD5A747bA18Bb078E63549'.toLowerCase() && (
           <div>
             <div className=" bottom-2 mt-8 border-t-2 text-xl ">
               Owner's View
