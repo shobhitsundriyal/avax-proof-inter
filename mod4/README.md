@@ -29,7 +29,7 @@ The testing was done with hardhat with test cases that you can find in the `test
 # Getting Started
 
 ### Important point to remember
-If you want to deploy the contracts:
+If you are deploying the contracts:
 1. First deploy the TokenContract, as this will be used as currency in ShopItems contract
 2. When deploying ShopItem you have to pass cost of items(in ethers) for Gold, Silver and Diamonds respectively, plus the address of the TokenContract(or any other erc20 token that you want to use as the currency for the shop)
 
