@@ -15,11 +15,12 @@ This contract is written in Solidity programming language used for developing sm
 - There are multiple test in test folder in TokenContract.ts, you can modify and write the test cases there.
 - Run `npx hardhat test` to run the test cases.
 - You can also spin up a local hardhat node and write new script
-<br/>
-**OR**
-<br/>
+<!-- <br /> -->
+  OR
+<br />
+
 - Import the contract onto remix ide
-- Deploy on vm and test the functionalities
+- Deploy on vm and test the functionalities on remix
 
 # Author
 Shobhit Sundriyal
