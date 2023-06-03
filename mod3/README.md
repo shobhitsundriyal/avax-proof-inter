@@ -23,4 +23,4 @@ This contract is written in Solidity programming language used for developing sm
 Shobhit Sundriyal
 
 # License
-The TokenContract is licensed under the MIT license. See the SPDX-License-Identifier for more details.
+The Project is licensed under the MIT license.
