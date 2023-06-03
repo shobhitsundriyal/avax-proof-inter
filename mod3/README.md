@@ -4,7 +4,16 @@ TokenContract is a Solidity smart contract that extends the ERC20 token standard
 
 # Description
 
-This contract is written in Solidity programming language used for developing smart contracts on the Ethereum blockchain. The contract has a single function that returns the string "Hello World!". The testing was done with hardhat with test cases that you can find in the `tests` folder.
+This contract is written in Solidity programming language. The contract has a multiple functions as follows
+#### Public functions
+- mint(uint16 amount): Allows a user to mint a specified amount of tokens to their own address. The minting operation is subject to the conditions defined in the MintingRequirements modifier.
+- mintToAddress(address to, uint16 amount): Allows the contract owner or an address with a sufficient minting allowance to mint a specified amount of tokens to a designated address. The minting operation is subject to the conditions defined in the MintingRequirements modifier.
+changeMintableAllowance(address _modifingAddress, uint16 _mintAllowance): Allows the contract owner to change the minting allowance for a specific address.
+
+#### Public view function
+- canMint(address): Retrieves the minting allowance for a given address.
+
+The testing was done with hardhat with test cases that you can find in the `tests` folder.
 
 # Getting Started
 
